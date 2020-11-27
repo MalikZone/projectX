@@ -1,0 +1,40 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.section-1 {
+    background-color: #ff5f45;
+}
+
+.section-2 {
+    background-color: rgb(115, 255, 115);
+}
+
+.section-3 {
+    background-color: rgb(115, 115, 255);
+}
+
+.section-4 {
+    background-color: rgb(204, 150, 255);
+}
+
+.nav-item {
+    background-color: #ffffff;
+}
+
+.nav-container {
+    right: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav-item {
+    width: 4px;
+    height: 4px;
+    margin: 7px;
+}
+
+.nav-item.active {
+    width: 12px;
+    height: 12px;
+}
