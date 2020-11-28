@@ -7,15 +7,15 @@
 }
 
 .section-2 {
-    background-color: rgb(115, 255, 115);
+    background-color: #0798ec;
 }
 
 .section-3 {
-    background-color: rgb(115, 115, 255);
+    background-color: #fc6c7c;
 }
 
 .section-4 {
-    background-color: rgb(204, 150, 255);
+    background-color: #fec401;
 }
 
 .nav-item {
@@ -28,13 +28,22 @@
     transform: translateY(-50%);
 }
 
+.navs>li {
+    margin: 10px 7px;
+}
+
 .nav-item {
-    width: 4px;
-    height: 4px;
-    margin: 7px;
+    width: 6px;
+    height: 6px;
+    transform: scale(1);
+    transition: transform .2s ease-in-out;
+}
+
+.nav-item:hover {
+    cursor: pointer;
 }
 
 .nav-item.active {
-    width: 12px;
-    height: 12px;
+    transform: scale(3);
+    transition: transform .2s ease-in-out;
 }
